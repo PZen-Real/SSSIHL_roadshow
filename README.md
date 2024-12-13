@@ -31,6 +31,8 @@ However after this we need to write the following code to launch the 'Puspa_vlsi
 ```
 ./a.out
 ```
+![image (5)](https://github.com/user-attachments/assets/62fd1eca-a661-479a-b219-0883be0bc915)
+
 After the following code was executed.
 ```
 riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o Puspa_vlsi_code.o Puspa_vlsi_code.c
