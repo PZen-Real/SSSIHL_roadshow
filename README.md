@@ -229,3 +229,44 @@ int main(void)
     }
 }
 ```
+
+
+
+### Summary of the RISC-V and VLSI Workshop (13th December 2024)  
+
+The workshop delved into the fundamentals of **RISC-V architecture** and its significance in **VLSI chip design**. Hosted by Dr. Kunal Ghosh from VSD Company, the session included practical insights into processor design, fabrication processes, and cutting-edge tools.
+
+---
+
+#### **Key Highlights:**
+1. **Understanding RISC-V Architecture**:  
+   - RISC-V, pronounced "Risk Five," is an **open-source architecture** enabling efficient communication with computers.  
+   - It promotes national self-reliance in semiconductor technology.  
+
+2. **VLSI Design Process**:  
+   - Key concepts like **standard cells** (AND, OR gates), **floor planning**, and **logic synthesis** were introduced. Tools like **Yosys** facilitate tasks such as **Clock Tree Synthesis (CTS)** and gate conversion.  
+   - Physical design involves multiple steps, from **converting codes to gates** to generating files for chip fabrication.
+
+3. **Chip Components and Packaging**:  
+   - Detailed coverage of chip structures:  
+     - **Packages**: Types include QFP (Quad Flat Package), DIP (Dual Inline Package), and BGA (Ball Grid Array).  
+     - **Pads**: Signal entry points, essential for managing high-frequency inputs.  
+     - **Die** and **Core**: The central processing regions of a chip.
+   - Cost considerations: Foundry IPs are expensive (60-70 crores for one), while macros are a more affordable alternative.  
+
+4. **Performance Metrics**:  
+   - Chips are optimized for **power, performance, and area** (PPA).  
+
+5. **Tools and Technologies**:  
+   - Tools: **Cadence**, **Renaissance Electronics**, and **Sky130A** (Skywater Technology).  
+   - Sky130A technology emphasizes miniaturization with **130 nm source-to-drain distance**.  
+
+6. **Practical Application**:  
+   - Participants explored **building a RISC-V processor**, starting with Verilog code to gate conversion.  
+   - The session also covered **chip tapeout**, the process of sending design files to the factory for fabrication.  
+
+---
+
+#### **Takeaway:**  
+This workshop provided an excellent mix of theoretical knowledge and hands-on application, empowering participants to understand and contribute to the semiconductor ecosystem. By focusing on open-source architectures like RISC-V, the session emphasized innovation and cost efficiency in the VLSI industry.  
+
