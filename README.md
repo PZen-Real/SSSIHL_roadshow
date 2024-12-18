@@ -128,9 +128,9 @@ run_routing
 
 ![Screenshot 2024-12-13 144215](https://github.com/user-attachments/assets/1652d16a-02be-492f-baa1-8112b030014c)
 
-Hence our microprocessor chip is ready.
-WE CAN RUN THE FOLLOWING EXAMPLE CODES IN THE VS CODE AFTER CONNECTING THE RISC-V BOARD.
-1) To make the LED Blink:
+Hence our microprocessor chip is ready.  
+WE CAN RUN THE FOLLOWING EXAMPLE CODES IN THE VS CODE AFTER CONNECTING THE RISC-V BOARD.  
+**1) To make the LED Blink:**
 ```
 #include <ch32v00x.h>
 #include <debug.h>
@@ -175,8 +175,14 @@ void HardFault_Handler(void)
 	}
 }
 
+
+
+https://github.com/user-attachments/assets/5223c948-1012-428e-aa1e-86481f8988cf
+
+
+
 ```
-2) To make the LED dim and glow:
+**2) To make the LED dim and glow:**
 ```
 #include "debug.h"
 #define TIME_PERIOD 1000
